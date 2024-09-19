@@ -1,0 +1,14 @@
+//
+// Created by asbpo on 10-09-2024.
+//
+
+#ifndef INC_02393DTU_REMEMBERINGNUMBERS_HPP
+#define INC_02393DTU_REMEMBERINGNUMBERS_HPP
+
+
+class rememberingNumbers {
+
+};
+
+
+#endif //INC_02393DTU_REMEMBERINGNUMBERS_HPP

@@ -8,5 +8,7 @@ add_executable(02393DTU
         ex01/helloWorld/HelloWorld.h++
         ex01/helloWorld/HelloWorld.cpp
         ex01/helloName/helloName.h++
-        ex01/helloName/helloName.c++
-        ex01/readNIntegers/readNIntegers.c++)
+        ex01/helloName/helloName.cpp
+        ex01/readNIntegers/readNIntegers.cpp
+        ex04/theMaze.cpp
+        ex04/dynamicMaze.cpp)

@@ -4,9 +4,8 @@
 
 #include <cstdlib>
 #include <iostream>
-#include "readNIntegers.h++"
 
-
+/*
 int main() {
     int n;
     std::cin >> n;
@@ -15,6 +14,6 @@ int main() {
         std::cin >> f;
         result += f;
     }
-    std::cout << result;
+    std::cout << result << std::endl;
     return 0;
-};
+};*/
