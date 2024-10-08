@@ -1,0 +1,16 @@
+//
+// Created by asbpo on 08-10-2024.
+//
+
+#ifndef INC_02393DTU_FRACTIONOFINTEGERS_HPP
+#define INC_02393DTU_FRACTIONOFINTEGERS_HPP
+
+
+
+class fractionOfIntegers {
+
+};
+
+
+
+#endif //INC_02393DTU_FRACTIONOFINTEGERS_HPP
