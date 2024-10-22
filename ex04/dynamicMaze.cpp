@@ -5,6 +5,9 @@
 #include <iostream>
 #include <vector>
 #include <math.h>
+#include "dynamicMaze.h"
+namespace dynMaze{
+
 
 typedef enum { wood, stone } material;
 struct player {
@@ -89,3 +92,4 @@ int main() {
 }
 
 */
+}

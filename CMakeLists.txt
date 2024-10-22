@@ -11,4 +11,7 @@ add_executable(02393DTU
         ex01/helloName/helloName.cpp
         ex01/readNIntegers/readNIntegers.cpp
         ex04/theMaze.cpp
-        ex04/dynamicMaze.cpp)
+        ex04/dynamicMaze.cpp
+        ex04/dynamicMaze.h
+        main.cpp
+        ex07/vector2d.cpp)

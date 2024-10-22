@@ -6,11 +6,9 @@
 #define INC_02393DTU_FRACTIONOFINTEGERS_HPP
 
 
-
 class fractionOfIntegers {
 
 };
-
 
 
 #endif //INC_02393DTU_FRACTIONOFINTEGERS_HPP
