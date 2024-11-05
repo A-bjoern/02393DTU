@@ -1,17 +1,7 @@
-cmake_minimum_required(VERSION 3.29)
-project(02393DTU)
+cmake_minimum_required(VERSION 3.10)
+project(ShapesProject)
 
-set(CMAKE_CXX_STANDARD 14)
-include_directories(ex01)
+set(CMAKE_CXX_STANDARD 17)
 
-add_executable(02393DTU
-        ex01/helloWorld/HelloWorld.h++
-        ex01/helloWorld/HelloWorld.cpp
-        ex01/helloName/helloName.h++
-        ex01/helloName/helloName.cpp
-        ex01/readNIntegers/readNIntegers.cpp
-        ex04/theMaze.cpp
-        ex04/dynamicMaze.cpp
-        ex04/dynamicMaze.h
-        main.cpp
-        ex07/vector2d.cpp)
+# Add the source files
+add_executable(02393DTU ./ex08/Test02.cpp ./ex08/shapes.cpp)
