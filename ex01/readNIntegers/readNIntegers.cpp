@@ -5,7 +5,7 @@
 #include <cstdlib>
 #include <iostream>
 
-/*
+
 int main() {
     int n;
     std::cin >> n;
@@ -16,4 +16,4 @@ int main() {
     }
     std::cout << result << std::endl;
     return 0;
-};*/
+};

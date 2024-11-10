@@ -3,5 +3,24 @@ project(ShapesProject)
 
 set(CMAKE_CXX_STANDARD 17)
 
-# Add the source files
-add_executable(02393DTU ./ex08/Test02.cpp ./ex08/shapes.cpp)
+# Add executables for each main() function
+add_executable(Test02 ./ex08/Test02.cpp ex08/shapes.cpp)
+add_executable(readNIntegers ./ex01/readNIntegers/readNIntegers.cpp)
+add_executable(HelloWorld ./ex01/helloWorld/HelloWorld.cpp)
+add_executable(helloName ./ex01/helloName/helloName.cpp)
+add_executable(doubleNumbersxyz ./ex01/doubleNumbersxyz/doubleNumbersxyz.cpp)
+add_executable(compareNumbers ./ex01/compareNumbers/compareNumbers.cpp)
+add_executable(primeFactorization ./ex02/primeFactorization/primeFactorization.cpp)
+add_executable(gaussianSum ./ex02/gaussianSum/gaussianSum.cpp)
+add_executable(approxPi ./ex02/approxPi/approxPi.cpp)
+add_executable(rememberingNumbers ./ex02/rememberingNumbers/rememberingNumbers.cpp)
+add_executable(addressBook ./ex03/adressBook/addressBook.cpp)
+add_executable(funWithBags1 ./ex03/funWithBags1/funWithBags1.cpp)
+add_executable(dynamicMaze ./ex04/dynamicMaze.cpp)
+add_executable(theMaze ./ex04/theMaze.cpp)
+add_executable(processingDatasets1 ./ex05/processingDatasets1.cpp)
+add_executable(fractionOfIntegers ./ex06/fractionOfIntegers.cpp)
+add_executable(vector2d ./ex07/vector2d.cpp)
+add_executable(mainProgram ./ex07/main.cpp)
+
+set(CMAKE_EXE_LINKER_FLAGS "-Wl,-subsystem,console")

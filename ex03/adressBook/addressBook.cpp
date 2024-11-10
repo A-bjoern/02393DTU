@@ -56,7 +56,7 @@ struct address_book {
 };
 
 
-/*int main() {
+int main() {
     address_book a_book;
     std::string txt;
     int p;
@@ -79,4 +79,4 @@ struct address_book {
         else if(txt == "qry") a_book.qry(p);
     }
     return -1;
-}*/
+}

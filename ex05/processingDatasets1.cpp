@@ -6,7 +6,7 @@
 #include <iostream>
 #include <algorithm>
 
-/*
+
 int main() {
     std::vector<int> a, b;
     int res = 0;
@@ -30,4 +30,3 @@ int main() {
     std::cout << res << std::endl;
     return 0;
 }
- */

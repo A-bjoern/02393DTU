@@ -32,7 +32,7 @@ void printBoard(tile playground[NROWS][NCOLS], player player) {
         std::cout << "\n";
     }
 }
-/*
+
     int main() {
         tile playground[NROWS][NCOLS];
         for (int i = 0; i < NROWS; i++) {
@@ -86,4 +86,4 @@ void printBoard(tile playground[NROWS][NCOLS], player player) {
         }
         return 0;
         }
-*/
+

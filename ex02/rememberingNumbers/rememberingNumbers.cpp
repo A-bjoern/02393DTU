@@ -3,12 +3,12 @@
 //
 
 #include <iostream>
-/*
+
 int main() {
     int arr[1000];
     int in;
     for(int i = 0; i < 1001; i++) arr[i] = 0;
-    while(1){
+    while(true){
         std::cin >> in;
         if (in < 1 || in > 1000)
             return 0;
@@ -17,4 +17,3 @@ int main() {
     }
     return 0;
 }
- */

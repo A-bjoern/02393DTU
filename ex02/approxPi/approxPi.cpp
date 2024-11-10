@@ -13,10 +13,10 @@ double pi(double n){
     return result*4;
 };
 
-/*int main(){
+int main(){
     double n;
     std::cin >> n;
     n = pi(n);
     std::cout << n;
     return 0;
-}*/
+}

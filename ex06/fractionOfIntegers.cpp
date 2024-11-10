@@ -43,7 +43,7 @@ public:
         std::cout << numerator << " " << "/" << " " <<  denominator << std::endl;
     };
 };
-/*
+
 int main() {
     int a,b,c,d;
     std::string line,op;
@@ -62,4 +62,3 @@ int main() {
     }
     return 0;
 }
- */

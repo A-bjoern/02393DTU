@@ -55,7 +55,7 @@ void printBoard(playground& playground, player player) {
         std::cout << "\n";
     }
 }
-/*
+
 int main() {
     playground playground;
     std::cin >> playground.rows >> playground.cols;
@@ -90,6 +90,4 @@ int main() {
     }
     return 0;
 }
-
-*/
 }

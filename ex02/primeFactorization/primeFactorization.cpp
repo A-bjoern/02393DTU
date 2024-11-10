@@ -5,7 +5,7 @@
 #include <iostream>
 
 
-/*int main() {
+int main() {
     int n,nn;
     std::cin >> n;
     nn = n;
@@ -23,4 +23,4 @@
     }
     std::cout << " * " << n;
     return 0;
-};*/
+};
