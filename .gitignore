@@ -34,3 +34,4 @@
 
 # Specific Paths
 ./cmake-build-debug
+./cmake-build-debug/*
