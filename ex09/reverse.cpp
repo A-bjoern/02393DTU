@@ -10,39 +10,27 @@
 
 using namespace std;
 
-//Didn't read the task description properly. Need to do this with recursion, so going to do that now.
-
-string reverse(vector<string>&v, int index = 0) {
-
-    if (index == v.size()) {
-
-        return "";
-
+void reverse(vector<int>& s) {
+    if(s.empty()){
+        cout << endl;
+        return;
     }
-
-    return reverse(v, index + 1) + v[index];
-
+    cout << s.back() << " ";
+    s.pop_back();
+    reverse(s);
 }
 
 
 int main(){
-
-    string s = "10 9 8 7 6 5 4 3 2 1";
-    vector<string> v;
-    /*
+//    vector<int> v{10,9,8,7,6,5,4,3,2,1};
+    vector<int> v;
+    int n;
     while(true) {
 
-        std::cin >> s;
-
+        std::cin >> n;
         if (std::cin.fail()) break;
-
+        v.push_back(n);
     }
-     */
-    v.push_back(s);
     reverse(v);
-
-    for(int i = 0; i< v.size(); i++){
-        cout << v.at(i);
-    }
-
+    return 0;
 }
