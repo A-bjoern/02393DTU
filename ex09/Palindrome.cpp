@@ -7,16 +7,14 @@
 
 using namespace std;
 
-void Palindrome(vector<int>& n, int right, int left=0){
+bool Palindrome(vector<int>& n, int right, int left=0){
     if(left>=right){
-        cout << "yes" << endl;
-        return;
+        return true;
     }
     if(n[left] != n[right]){
-        cout << "no" << endl;
-        return;
+        return false;
     }
-    Palindrome(n,right-1,left+1);
+    return Palindrome(n,right-1,left+1);
 
 }
 
@@ -28,7 +26,11 @@ int main(){
         if (std::cin.fail()) break;
         v.push_back(n);
     }
-
-    Palindrome(v,v.size()-1);
+    if(Palindrome(v,v.size()-1)){
+        cout << "yes" << endl;
+    }
+    else{
+        cout << "no" << endl;
+    };
     return 0;
 }
