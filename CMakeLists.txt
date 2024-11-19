@@ -2,6 +2,7 @@ cmake_minimum_required(VERSION 3.10)
 project(ShapesProject)
 
 set(CMAKE_CXX_STANDARD 17)
+set(CMAKE_BUILD_TYPE Release)
 
 # Add executables for each main() function
 add_executable(Test02 ./ex08/Test02.cpp ex08/shapes.cpp)
@@ -22,5 +23,7 @@ add_executable(processingDatasets1 ./ex05/processingDatasets1.cpp)
 add_executable(fractionOfIntegers ./ex06/fractionOfIntegers.cpp)
 add_executable(vector2d ./ex07/vector2d.cpp)
 add_executable(mainProgram ./ex07/main.cpp)
-
-set(CMAKE_EXE_LINKER_FLAGS "-Wl,-subsystem,console")
+add_executable(Fibonacci ./ex09/Fibonacci.cpp)
+add_executable(Palindrome ./ex09/Palindrome.cpp)
+add_executable(Levenshtein ./ex09/LevenshteinDistance.cpp)
+add_executable(doubly-linked ./ex10/doubly-linked.cpp)

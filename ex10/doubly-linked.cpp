@@ -19,9 +19,9 @@ List::~List() {
 void List::print() {
     Node* head = first;
     while(head != nullptr){
-        cout << " ";
         cout << head->val;
         head = head->next;
+        cout << " ";
     }
     cout << endl;
 }

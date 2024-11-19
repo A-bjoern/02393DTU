@@ -8,14 +8,13 @@
 using namespace std;
 
 bool Palindrome(vector<int>& n, int right, int left=0){
-    if(left>=right){
+    if(n.size() <= 1){
         return true;
     }
     if(n[left] != n[right]){
         return false;
     }
     return Palindrome(n,right-1,left+1);
-
 }
 
 int main(){
