@@ -111,7 +111,7 @@ int main(){
     cout << "Call tree in pre-order: "; tree.display();
     cout << "Call tree size: " << tree.size() << endl;
     cout << "Call tree depth: " <<  tree.depth() << endl;
-    //Node to teacher: Leaves in plural is leaves. Not leafs.
+    //Note to teacher: Leaves in plural is leaves. Not leafs.
     cout << "Call tree leafs: " << tree.leaves() << endl;
     return 0;
 }
